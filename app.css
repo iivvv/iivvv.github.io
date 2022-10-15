@@ -1,0 +1,34 @@
+h1,p,a,button{
+    font-family:'Times New Roman', Times, serif
+}
+
+.onepage{
+    height: 750px;
+}
+
+.onepage-bg{
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    background-position: center center;
+    background-size: cover;
+}
+
+#onepagebg{
+    background-image: url("images/005_Sky.jpeg");
+}
+
+.container{
+    position: absolute;
+    z-index: 1;
+    top:150px
+}
+
+.title-text{
+    margin-left: 50px;
+}
+
+.headfontsize h1{
+    font-size: 50px;
+}
